@@ -1169,7 +1169,7 @@ M.AutoInit = function (context) {
     Tabs: root.querySelectorAll('.tabs:not(.no-autoinit)'),
     TapTarget: root.querySelectorAll('.tap-target:not(.no-autoinit)'),
     Timepicker: root.querySelectorAll('.timepicker:not(.no-autoinit)'),
-    Tooltip: root.querySelectorAll('.tooltipped:not(.no-autoinit)'),
+    Tooltip: root.querySelectorAll('.tooltipped'),
     FloatingActionButton: root.querySelectorAll('.fixed-action-btn:not(.no-autoinit)')
   };
 

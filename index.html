@@ -1,25 +1,106 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Guilherme Maegava (Developer)</title>
+  <title>Guilherme Maegava (Analista Desenvolvedor)</title>
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-
+  <!-- Google fonts famyly-->
+  <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
   <!-- FontAwesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+
+  <link type="text/css" rel="stylesheet" href="css/tooltip.css"/>
 
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
-  # Header 1
-  ## Header 2
-  ### Header 3
-  <i class="fab fa-github-square"></i>
+  <div class="container-fluid">
+    <div class="row" style="margin-top: 10px; margin-bottom: 10px;">
+      <div class="col s2 center-align">
+        <a class="black-text" href="#about">
+          <p style="margin: 0px;"><i class="fas fa-user"></i> Sobre mim</p>
+        </a>
+      </div>
+      <div class="col s2 center-align">
+        <a class="black-text" href="#skills">
+          <p style="margin: 0px;"><i class="fas fa-star"></i> Conhecimento</p>
+        </a>
+      </div>
+      <div class="col s2 center-align">
+        <a class="black-text" href="#carrer">
+          <p style="margin: 0px;"><i class="fas fa-briefcase"></i> Experiência</p>
+        </a>
+      </div>
+      <div class="col s2 center-align">
+        <a class="black-text" href="#contact">
+          <p style="margin: 0px;"><i class="fas fa-address-book"></i> Contato</p>
+        </a>
+      </div>
+      <div class="col s4 right-align">
+        <p style="margin: 0px; padding: 0px;">
+          <img class="responsive-img" style="height: 20px;" src="data:image/png;base64,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">
+          <img class="responsive-img" style="height: 20px;" src="data:image/png;base64,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">
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid z-depth-4" style="background-color:#383830; background-image: url(https://i.imgur.com/rnaCwMY.png); background-repeat: no-repeat; background-position: center; background-size: 100%; height: 100%">
+    <div class="row" style="padding-top: 5%;">
+      <h4 class="col center-align white-text s12" style="font-family: Aldrich; margin-bottom:0;">GUILHERME MAEGAVA</h2>
+      <h5 class="col center-align light-blue-text text-lighten-3 s12" style="font-family: Aldrich; margin-top: 0; margin-bottom:0;">Analista Desenvolvedor</h4>
+      <h6 class="col center-align pink-text text-darken-2 s12" style="font-family: Aldrich; margin-top: 0;"><strong>(são paulo / Brasil)</strong></h4>
+    </div>
+    <br><br>
+    <div class="row">
+      <span class="col s2 offset-s2 m1 offset-m4 center-align">
+        <a class="tooltip" target="_blank" href="https://github.com/guilherme-maegava">
+          <i class="fab fa-github fa-3x tool" style="color: white;"></i>
+          <span class="tooltiptext">Github</span>
+        </a>
+      </span>
+      <span class="col s2 m1 center-align">
+        <a class="tooltip" target="_blank" href="https://www.hackerrank.com/guilherme_tsuneo">
+          <i class="fas fa-hospital-symbol fa-3x" style="color: white;"></i>
+          <span class="tooltiptext">HackerRank</span>
+        </a>
+      </span>
+      <span class="col s2 m1 center-align">
+        <a class="tooltip" target="_blank" href="https://www.linkedin.com/in/guilherme-maegava-98b67a4a/">
+          <i class="fab fa-linkedin fa-3x" style="color: white;"></i>
+          <span class="tooltiptext">Linkedin</span>
+        </a>
+      </span>
+      <span class="col s2 m1 center-align">
+        <a class="tooltip" target="_blank" href="mailto:guilherme.tsuneo@gmail.com">
+          <i class="fas fa-envelope-square fa-3x" style="color: white;"></i>
+          <span class="tooltiptext">Enviar email</span>
+        </a>
+      </span>
+    </div>
+  </div>
+  
+  <section id="about">
+    <h3 style="font-family: Aldrich;">[ sobre mim ]</h3>
+  </section>
+
+  <section id="skills">
+      <h3 style="font-family: Aldrich;">[ conhecimento ]</h3>
+  </section>
+
+  <section id="carrer">
+      <h3 style="font-family: Aldrich;">[ experiência ]</h3>
+  </section>
+
+  <section id="contact">
+      <h3 style="font-family: Aldrich;">>[ contato ]</h3>
+  </section>
 
   <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
+  
 </body>
 </html>
