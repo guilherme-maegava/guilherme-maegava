@@ -22,4 +22,7 @@ span.custom-badge {
       width: 28%;
       display: none;
     }
+    .sectiontitle {
+        text-align: center;
+    }
 }
