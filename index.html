@@ -5,15 +5,15 @@
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
   <!-- Google fonts famyly-->
   <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
   <!-- FontAwesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 
-  <link type="text/css" rel="stylesheet" href="css/tooltip.css"/>
-  <link type="text/css" rel="stylesheet" href="css/custom.css"/>
-  <link type="text/css" rel="stylesheet" href="css/samerpik-timeline.css">
+  <link type="text/css" rel="stylesheet" href="assets/css/tooltip.css"/>
+  <link type="text/css" rel="stylesheet" href="assets/css/custom.css"/>
+  <link type="text/css" rel="stylesheet" href="assets/css/samerpik-timeline.css">
 
   <!-- <script src="js/jquery.translate.js"> </script>
   <script src="js/dict.js"></script>
@@ -63,7 +63,10 @@
   </div>
   <!-- <div class="container-fluid custom-background"> -->
   <div class="parallax-container custom-background">
-    <div class="parallax"><img src="https://i.imgur.com/rnaCwMY.png"></div>
+    <div class="parallax">
+      <!-- <img src="https://i.imgur.com/rnaCwMY.png"> -->
+      <img src="assets/static/codescreen.png">
+    </div>
     <div class="row" style="padding-top: 5%;">
       <h4 class="col center-align white-text s12" style="font-family: Aldrich; margin-bottom:0;">GUILHERME MAEGAVA</h2>
       <h5 class="col center-align light-blue-text text-lighten-3 s12" style="font-family: Aldrich; margin-top: 0; margin-bottom:0;">Analista Desenvolvedor</h4>
@@ -111,7 +114,8 @@
             </div> -->
             <div class="card-content grey darken-2">
               <div class="row center-align">
-                  <img class="circle responsive-img" src="https://i.imgur.com/KIIwGmM.jpg" style="height: 180px">
+                  <!-- <img class="circle responsive-img" src="https://i.imgur.com/KIIwGmM.jpg" style="height: 180px"> -->
+                  <img class="circle responsive-img" src="assets/static/profile.jpeg" style="height: 180px">
               </div>
               <h6 class="white-text">
                 <p style="margin: 2%;"><strong>Nome:</strong> Guilherme Maegava</p>
@@ -148,7 +152,10 @@
 
   <section id="skills">
     <div class="parallax-container container-fluid" style="height: 80%; margin-bottom: 30px;">
-      <div class="parallax"><img src="https://i.imgur.com/SCkDnSj.png"></div>
+      <div class="parallax">
+        <!-- <img src="https://i.imgur.com/SCkDnSj.png"> -->
+        <img src="assets/static/codescreen2.png">
+      </div>
       <div class="row">
         <h3 class="col s12 sectiontitle white-text" style="font-family: Aldrich;">[conhecimento]</h3>
       </div>
@@ -240,8 +247,13 @@
                   <h3 class="light-blue-text text-lighten-1">BRQ Digital Solutions</h3>
                   <p><strong class="yellow-text text-darken-3">Analista de Sistemas Pleno</strong></p>
                   <p class="white-text">
-                      Cliente Santander - Sistemas internos para o RH: Desenvolvimento backend (Java/Springboot) e 
-                      Desenvolvimento frontend (Angularjs 4);
+                      <strong>Cliente Santander</strong> - Sistemas internos para à area de RH:
+                  </p>
+                  <p class="white-text"> 
+                      Responsável pelo desenvolvimento do portal online (AngularJS 4,5) e dos serviços Web 
+                      (Java 8 / Spring framework). Exercendo também, tarefas de planejamento e proposta de 
+                      solução, configuração das jobs de C.I (Jenkins) para build e deploy de aplicações no 
+                      PaaS (Openshift).
                   </p>
                 </li>
                 <li class="event" data-date="2016/2017">
@@ -249,8 +261,12 @@
                   <p><strong class="yellow-text text-darken-3">Analista de Sistemas Pleno</strong></p>
                   <p class="white-text">
                       WebApp Blink - Automação de testes mobile em cloud:
-                      Desenvolvimento do servidor de aparelhos mobile (C/C++, Android NDK);
-                      Desenvolvimento do frontend do Blink (Angularjs 1/2);
+                  </p>
+                  <p class="white-text">
+                      Responsável pelo desenvolvimento do servidor de aparelhos mobile (C/C++, Android NDK)
+                      e do SaaS do Blink (Angularjs 1/2). Responsável por implantações de parques de aparelhos 
+                      em clientes e pela manutenção e configuração do IaaS (Microsoft Azure) dos serviços em 
+                      cloud.
                   </p>
                 </li>
                 <li class="event" data-date="2015/2016">
@@ -326,7 +342,7 @@
 
   <!--JavaScript at end of body for optimized loading-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="assets/js/materialize.min.js"></script>
   <script>
     $(document).ready(function(){
       $('.parallax').parallax();
